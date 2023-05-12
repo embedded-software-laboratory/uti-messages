@@ -14,24 +14,26 @@ find_package(geometry_msgs REQUIRED)
 include_directories(include/uti_msgs)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Ready.msg"
+  # "msg/Ready.msg"
   "msg/Speed.msg"
-  "msg/VehicleID.msg"
-  "msg/VehicleIDs.msg"
+  # "msg/VehicleID.msg"
+  # "msg/VehicleIDs.msg"
   "msg/VehicleState.msg"
   "msg/VehicleStateList.msg"
   "msg/TrajectoryPoint.msg"
   "msg/TrajectoryCommand.msg"
-  "srv/CollectedVehicleStateList.srv"
-  "srv/TestbedCharacteristics.srv"
-  "srv/MapDefinition.srv"
-  "srv/MapRequest.srv"
-  "srv/NeededVehicles.srv"
-  "srv/ScaleRegistration.srv"
+  # "srv/CollectedVehicleStateList.srv"
+  # "srv/TestbedCharacteristics.srv"
+  # "srv/MapDefinition.srv"
+  # "srv/MapRequest.srv"
+  # "srv/NeededVehicles.srv"
+  # "srv/ScaleRegistration.srv"
   "srv/StoredTrajectoryCommand.srv"
-  "action/VehiclesRequest.action"
+  # "action/VehiclesRequest.action"
   DEPENDENCIES builtin_interfaces geometry_msgs
 )
+
+ament_export_dependencies(rosidl_default_runtime)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
