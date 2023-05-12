@@ -1,3 +1,0 @@
----
-bool valid true # stores, whether the other content is valid or not. Not really necessary in this service but member allows more general function definitions.
-int32[] vehicle_ids
