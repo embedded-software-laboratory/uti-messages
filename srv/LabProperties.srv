@@ -1,0 +1,4 @@
+---
+bool valid # stores, whether the other content is valid or not. Mainly used by scaling service to indicate problems.
+float64 max_velocity
+# to be continued

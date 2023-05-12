@@ -1,0 +1,4 @@
+int32 vehicle_id # VehicleID for which the currently stored trajectory command is requested
+---
+bool is_command_available
+TrajectoryCommand trajectory_command # Currently stored trajectory command for the requested vehicle

@@ -1,0 +1,4 @@
+---
+bool defined # Contains whether a map was already defined
+bool valid # stores, whether the other content is valid or not. Mainly used by scaling service to indicate problems.
+string map

@@ -1,0 +1,6 @@
+bool use_default
+string map
+---
+bool valid # stores, whether the other content is valid or not. Mainly used by scaling service to indicate problems.
+bool ok    # feedback of lab, whether the map can be used or not
+string msg # Can contain error messages. Indicate, why a map was rejected. (This field is only used by the lab and not by the scaling service.)

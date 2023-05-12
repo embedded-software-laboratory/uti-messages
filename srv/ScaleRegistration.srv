@@ -1,0 +1,4 @@
+string entity # Can be "user" or "lab"
+uint16 scale # 1:scale
+---
+bool ok

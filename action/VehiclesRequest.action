@@ -1,0 +1,6 @@
+int32[] vehicle_ids
+# geometry_msgs/Pose[] initial_poses # initial positions for each vehicle; may be empty TODO
+---
+VehicleState[] vehicle_states # Result: Final positions of the vehicles
+---
+VehicleState[] vehicle_states # Feedback
