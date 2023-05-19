@@ -2,3 +2,4 @@ int32 vehicle_id
 builtin_interfaces/Time t_creation
 builtin_interfaces/Time t_valid_after
 TrajectoryPoint[] trajectory
+builtin_interfaces/Time eval
