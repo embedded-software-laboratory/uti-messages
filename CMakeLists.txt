@@ -23,7 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrajectoryPoint.msg"
   "msg/TrajectoryCommand.msg"
   "srv/CollectedVehicleStateList.srv"
-  "srv/LabProperties.srv"
+  "srv/TestbedCharacteristics.srv"
   "srv/MapDefinition.srv"
   "srv/MapRequest.srv"
   "srv/NeededVehicles.srv"

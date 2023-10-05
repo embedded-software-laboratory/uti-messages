@@ -1,2 +1,2 @@
-float64 linear       # in m/s
-float64 angular # TODO specify unit
+float64 linear      # in m/s
+float64 angular     # in rad/s
