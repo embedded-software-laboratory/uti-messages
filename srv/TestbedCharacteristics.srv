@@ -1,4 +1,5 @@
 ---
 bool valid # stores, whether the other content is valid or not. Mainly used by scaling service to indicate problems.
-float64 max_velocity
+float64 max_velocity            # m/s
+float64 max_steering_angle      # deg
 # to be continued
